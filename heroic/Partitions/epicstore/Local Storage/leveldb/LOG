@@ -1,5 +1,0 @@
-2026/08/04-16:35:18.929 3ee1 Creating DB /home/arvid/.config/heroic/Partitions/epicstore/Local Storage/leveldb since it was missing.
-2026/08/04-16:35:18.943 3ee1 Reusing MANIFEST /home/arvid/.config/heroic/Partitions/epicstore/Local Storage/leveldb/MANIFEST-000001
-2026/08/04-16:38:46.619 3edd Level-0 table #5: started
-2026/08/04-16:38:46.622 3edd Level-0 table #5: 11903 bytes OK
-2026/08/04-16:38:46.622 3edd Delete type=0 #3

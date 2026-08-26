@@ -1,6 +1,0 @@
-{"timestamp":18203590,"category":"bounce.tracking.protection","name":"purge_action","extra":{"success":"true","glean_timestamp":"1787665163466","bounce_time":"1787659834","is_dry_run":"true","site_host":"citybreak.com"},"execution_counter":54}
-{"timestamp":21574743,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-08-25T16:35+02:00","glean_timestamp":"1787668535102"},"execution_counter":55}
-{"timestamp":25173805,"category":"bounce.tracking.protection","name":"purge_action","extra":{"bounce_time":"1787661679","success":"true","glean_timestamp":"1787672134164","site_host":"kustom.co","is_dry_run":"true"},"execution_counter":55}
-{"timestamp":25173805,"category":"bounce.tracking.protection","name":"purge_action","extra":{"is_dry_run":"true","bounce_time":"1787661628","success":"true","glean_timestamp":"1787672134164","site_host":"stripe.com"},"execution_counter":55}
-{"timestamp":457891,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-08-25T22:46+02:00","glean_timestamp":"1787690806357"},"execution_counter":56}
-{"timestamp":351687,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-08-26T16:29+02:00","glean_timestamp":"1787754542242"},"execution_counter":57}

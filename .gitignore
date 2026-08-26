@@ -1,28 +1,28 @@
 # --- Dynamic Caches, Tokens & System State ---
-dconf
-pulse
+dconf/
+pulse/
 pavucontrol.ini
-menus
-go
-matplotlib
-mozilla
-yay
+menus/
+go/
+matplotlib/
+mozilla/
+yay/
 *.swp
 *.swo
 
 # --- Game Data, Launchers & Auth Tokens ---
-StardewValley
-heroic
-Proton
-CurseForge
-ow-electron
+StardewValley/
+heroic/
+Proton/
+CurseForge/
+ow-electron/
 spotify-player/credentials.json
 spotify-player/token_cache.json
 spotatui/credentials*
 
 # --- Heavy App Caches & VM/Hardware Drivers ---
-FreeCAD
-JetBrains
-GIMP
-libvirt
-rog
+FreeCAD/
+JetBrains/
+GIMP/
+libvirt/
+rog/

@@ -1,0 +1,56 @@
+{
+  "8769e24080ea413b8ebca3f1b8c50951": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "enableWoW64": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [
+      {
+        "key": "USE_FAKE_EPIC_EXE",
+        "value": "True"
+      }
+    ],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "gamescope": {
+      "enableUpscaling": false,
+      "enableLimiter": false,
+      "enableForceGrabCursor": true,
+      "windowType": "fullscreen",
+      "gameWidth": "",
+      "gameHeight": "",
+      "upscaleHeight": "",
+      "upscaleWidth": "",
+      "upscaleMethod": "fsr",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": ""
+    },
+    "verboseLogs": true,
+    "advertiseAvxForRosetta": false,
+    "enableQuickSavesMenu": false,
+    "wineVersion": {
+      "bin": "/home/arvid/.local/share/Steam/compatibilitytools.d/GE-Proton11-1/proton",
+      "name": "GE-Proton11-1",
+      "type": "proton"
+    },
+    "winePrefix": "/home/arvid/Games/Heroic/Prefixes/Grand Theft Auto V Enhanced",
+    "disableUMU": false,
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

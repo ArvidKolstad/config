@@ -1,0 +1,139 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="BraceOrQuoteOut">
+      <i c="1" l="1780993381299" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1780995402653" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1212" l="1782157070874" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="13" l="1782157083145" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="9" l="1781528865999" />
+    </e>
+    <e n="EditorDelete">
+      <i c="7" l="1782156654442" />
+    </e>
+    <e n="EditorDown">
+      <i c="6" l="1782154255070" />
+    </e>
+    <e n="EditorEnter">
+      <i c="135" l="1782157060969" />
+    </e>
+    <e n="EditorEscape">
+      <i c="5" l="1782156655450" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1782154251138" />
+    </e>
+    <e n="EditorTab">
+      <i c="7" l="1782154224035" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="1" l="1780995393057" />
+    </e>
+    <e n="EditorUp">
+      <i c="2" l="1782153753974" />
+    </e>
+    <e n="GotoFile">
+      <i c="1" l="1781526973368" />
+    </e>
+    <e n="HideActiveWindow">
+      <i c="1" l="1782156622655" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="20" l="1781526586284" />
+    </e>
+    <e n="InsertLiveTemplate">
+      <i c="17" l="1782156896358" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1781527062579" />
+    </e>
+    <e n="ProblemsViewReSharperReanalyzeAllFiles">
+      <i c="1" l="1780994006718" />
+    </e>
+    <e n="QuickImplementations">
+      <i c="1" l="1782156416526" />
+    </e>
+    <e n="RiderNewSolution">
+      <i c="4" l="1781526196220" />
+    </e>
+    <e n="Run">
+      <i c="14" l="1782157100535" />
+    </e>
+    <e n="SaveAll">
+      <i c="232" l="1782157091431" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1781528510928" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="4" l="1781527018150" />
+    </e>
+    <e n="ShowSettings">
+      <i c="6" l="1781527869333" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="56" l="1780993985751" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="55" l="1780993987522" />
+    </e>
+    <e n="WelcomeScreen.OpenSelected">
+      <i c="1" l="1780991805033" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="3" l="1781526900870" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerConfigurablePanel$UpdatePluginsAutomaticallyToggleAction">
+      <i c="1" l="1780928567193" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="2" l="1780928565702" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1782569949577" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="1980" l="1782157091428" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="1" l="1782154955107" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="2" l="1781528512118" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1780991904748" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="11" l="1781526727204" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="7" l="1780995397826" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="2" l="1780928436864" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="6" l="1780927381975" />
+    </e>
+    <e n="com.jetbrains.rdclient.daemon.highlighters.gutterMarks.dotnet.wrappers.BackendGutterMarkWrapper$getClickAction$1">
+      <i c="1" l="1780993038030" />
+    </e>
+    <e n="com.jetbrains.rider.actions.RiderActionUpdateInterceptor$RiderBackendCompositeAction">
+      <i c="2" l="1781527324094" />
+    </e>
+    <e n="com.jetbrains.rider.build.actions.build.BuildButton">
+      <i c="2" l="1780993960272" />
+    </e>
+    <e n="com.jetbrains.rider.problemsView.actions.RiderProblemsViewReanalyzeAction">
+      <i c="1" l="1780994004709" />
+    </e>
+  </component>
+</application>

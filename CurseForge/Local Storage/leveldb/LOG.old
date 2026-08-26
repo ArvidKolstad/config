@@ -1,0 +1,9 @@
+2026/07/28-20:46:37.620 1261 Reusing MANIFEST /home/arvid/.config/CurseForge/Local Storage/leveldb/MANIFEST-000001
+2026/07/28-20:46:37.702 1261 Recovering log #14
+2026/07/28-20:46:37.703 1261 Reusing old log /home/arvid/.config/CurseForge/Local Storage/leveldb/000014.log 
+2026/07/28-20:47:37.708 1261 Level-0 table #19: started
+2026/07/28-20:47:37.711 1261 Level-0 table #19: 21870 bytes OK
+2026/07/28-20:47:37.712 1261 Delete type=0 #14
+2026/07/28-20:48:44.254 1261 Level-0 table #21: started
+2026/07/28-20:48:44.258 1261 Level-0 table #21: 38934 bytes OK
+2026/07/28-20:48:44.259 1261 Delete type=0 #18

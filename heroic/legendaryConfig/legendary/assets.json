@@ -1,0 +1,99 @@
+{
+  "Windows": [
+    {
+      "app_name": "9d2d0eb64d5c44529cece33fe2a46482",
+      "asset_id": "9d2d0eb64d5c44529cece33fe2a46482",
+      "build_version": "1.0.3889.0_v1",
+      "catalog_item_id": "6e563a2c0f5f46e3b4e88b5f4ed50cca",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "0584d2013f0149a791e7b9bad0eec102",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "0a2d9f6403244d12969e11da6713137b",
+      "asset_id": "0a2d9f6403244d12969e11da6713137b",
+      "build_version": "EGS_11640",
+      "catalog_item_id": "38ec4849ea4f4de6aa7b6fb0f2d278e1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "50118b7f954e450f8823df1614b24e80",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "40cb42e38c0b4a14a1bb133eb3291572",
+      "asset_id": "40cb42e38c0b4a14a1bb133eb3291572",
+      "build_version": "IdleDragons650064Live",
+      "catalog_item_id": "48353a502e72433298f25827e03dbff0",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "7e508f543b05465abe3a935960eb70ac",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "8769e24080ea413b8ebca3f1b8c50951",
+      "asset_id": "8769e24080ea413b8ebca3f1b8c50951",
+      "build_version": "1.0.1158.13_v1",
+      "catalog_item_id": "122e5e90b7b8424d930be8bc1a7e05fb",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "b0cd075465c44f87be3b505ac04a2e46",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Kakopo",
+      "asset_id": "Kakopo",
+      "build_version": "JC4_2226912_1830540",
+      "catalog_item_id": "11fa5d6106524a3fa600b111ac243f58",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "845c87d11254483991120dc2d952122a"
+      },
+      "namespace": "ba8062bdcc1342c0b78743e3c6242575",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "aa31f9e94e844b299ca757d1d0b97a09",
+      "asset_id": "aa31f9e94e844b299ca757d1d0b97a09",
+      "build_version": "++Fortnite+Release-41.30-CL-56430492-Windows",
+      "catalog_item_id": "0b41f0192f7f4f2691684581aedc0778",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-41.30-CL-56430492-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "hasDependencyConfig": true,
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "94bc5ec13f8f438c97fdbef3e9019e27",
+      "asset_id": "94bc5ec13f8f438c97fdbef3e9019e27",
+      "build_version": "++Fortnite+Release-41.30-CL-56430492-Windows",
+      "catalog_item_id": "b619cf61a4144d67bd753dc990637e7c",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Wombat",
+      "asset_id": "Wombat",
+      "build_version": "2.49",
+      "catalog_item_id": "ec6ed5344a904ea78729113d80818d18",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "wombat",
+      "sidecar_rev": 0
+    }
+  ]
+}

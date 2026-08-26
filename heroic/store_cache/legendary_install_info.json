@@ -1,0 +1,63 @@
+{
+	"__timestamp": {
+		"8769e24080ea413b8ebca3f1b8c50951": "Sun Aug 09 2026 23:45:18 GMT+0200 (Central European Summer Time)"
+	},
+	"8769e24080ea413b8ebca3f1b8c50951": {
+		"game": {
+			"app_name": "8769e24080ea413b8ebca3f1b8c50951",
+			"title": "Grand Theft Auto V Enhanced",
+			"version": "1.0.1158.13_v1",
+			"platform_versions": {
+				"Windows": "1.0.1158.13_v1"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": {
+			"platform": "Windows",
+			"version": "1.0.1158.13_v1",
+			"disk_size": 103351504726,
+			"install_path": "/home/arvid/.local/share/Steam/steamapps/common/Grand Theft Auto V Enhanced",
+			"save_path": null,
+			"synced_egl_guid": "",
+			"install_tags": [],
+			"requires_ovt": false,
+			"installed_dlc": []
+		},
+		"manifest": {
+			"size": 6400318,
+			"type": "binary",
+			"version": 21,
+			"feature_level": 21,
+			"compressed": true,
+			"encrypted": false,
+			"app_name": "8769e24080ea413b8ebca3f1b8c50951",
+			"launch_exe": "PlayGTAV.exe",
+			"launch_command": "",
+			"build_version": "1.0.1158.13_v1",
+			"build_id": "bBD--UKsNkaYt1aY38BzQQ",
+			"prerequisites": null,
+			"uninstaller": {
+				"path": "RedistributableUninstaller.exe",
+				"args": "-battlEyeExe GTA5_Enhanced_BE.exe -battlEyeArgs 4"
+			},
+			"install_tags": [
+				""
+			],
+			"num_files": 453,
+			"num_chunks": 98043,
+			"disk_size": 103351504726,
+			"download_size": 101335653588,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"is_preloaded": false,
+			"use_signed_urls": false
+		}
+	}
+}

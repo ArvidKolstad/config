@@ -1,0 +1,154 @@
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(30, 30, 46, 0.85);
+    border-radius: 12px;
+    color: #cdd6f4;
+}
+
+/* Workspaces */
+#workspaces {
+    background: transparent;
+    margin: 4px 6px;
+    padding: 0 4px;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    color: #6c7086;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #1e1e2e;
+    background: #89b4fa;
+    min-width: 24px;
+}
+
+#workspaces button.urgent {
+    color: #1e1e2e;
+    background: #f38ba8;
+}
+
+#workspaces button:hover {
+    background: rgba(137, 180, 250, 0.3);
+    color: #cdd6f4;
+}
+
+/* Submap indicator (only shows when a keybind submap is active) */
+#submap {
+    padding: 0 10px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background: rgba(249, 226, 175, 0.25);
+    color: #f9e2af;
+}
+
+/* Window title (center) */
+#window {
+    color: #a6adc8;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+/* Generic pill style for right-side modules */
+#idle_inhibitor,
+#mpris,
+#pulseaudio,
+#network,
+#power-profiles-daemon,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#battery,
+#clock,
+#custom-power {
+    padding: 0 10px;
+    margin: 4px 3px;
+    border-radius: 8px;
+    background: rgba(49, 50, 68, 0.6);
+    color: #cdd6f4;
+    min-width: 20px;
+}
+
+/* Extra breathing room for emoji-based modules, which render wider
+   and inconsistently across fonts compared to text-only labels */
+#idle_inhibitor,
+#power-profiles-daemon {
+    padding: 0 12px;
+    margin: 4px 4px;
+    min-width: 28px;
+}
+
+#idle_inhibitor.activated {
+    background: rgba(166, 227, 161, 0.25);
+    color: #a6e3a1;
+}
+
+#battery.warning {
+    color: #f9e2af;
+}
+
+#battery.critical {
+    color: #f38ba8;
+    background: rgba(243, 139, 168, 0.2);
+}
+
+#battery.charging {
+    color: #a6e3a1;
+}
+
+#temperature.critical {
+    color: #f38ba8;
+    background: rgba(243, 139, 168, 0.2);
+}
+
+#pulseaudio.muted {
+    color: #6c7086;
+}
+
+#network.disconnected {
+    color: #f38ba8;
+}
+
+#power-profiles-daemon.performance {
+    color: #f38ba8;
+}
+
+#power-profiles-daemon.power-saver {
+    color: #a6e3a1;
+}
+
+#custom-power {
+    color: #f38ba8;
+    font-size: 15px;
+}
+
+#custom-power:hover {
+    background: rgba(243, 139, 168, 0.25);
+}
+
+#tray {
+    padding: 0 10px;
+    margin: 4px 2px;
+    background: transparent;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background: rgba(243, 139, 168, 0.3);
+    border-radius: 8px;
+}

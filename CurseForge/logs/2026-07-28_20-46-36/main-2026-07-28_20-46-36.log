@@ -1,0 +1,71 @@
+[2026-07-28 20:46:36.963] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2026-07-28 20:46:36.968] [info]  [ConfigurationServiceImpl] Current env: production.
+[2026-07-28 20:46:36.993] [info]  [BackgroundController] App version: 1.314.0.36643.
+[2026-07-28 20:46:36.994] [info]  [BackgroundController] OS: linux.
+[2026-07-28 20:46:36.995] [info]  [BackgroundController] OS version: 7.1.3-arch1-2.
+[2026-07-28 20:46:36.995] [info]  [BackgroundController] App startup args: /tmp/.mount_cursefTKGdsh/curseforge.
+[2026-07-28 20:46:36.996] [info]  [BackgroundController] ph%: 57.
+[2026-07-28 20:46:37.035] [error] [BackgroundController] Failed subscribing app protocol.
+[2026-07-28 20:46:37.808] [info]  [BackgroundController] Electron App Ready. Continuing Initialization....
+[2026-07-28 20:46:37.811] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ....
+[2026-07-28 20:46:39.186] [error] [ClientOverridesImpl] get request https://curseforge.overwolf.com/downloads/client-overrides-v2.json #1 failed with error code undefined - . AggregateError
+[2026-07-28 20:46:41.212] [error] [ClientOverridesImpl] get request https://curseforge.overwolf.com/downloads/client-overrides-v2.json #2 failed with error code undefined - . AggregateError
+[2026-07-28 20:46:42.356] [info]  [AppUpdateServiceImpl] Checking if app has an update which is available locally..
+[2026-07-28 20:46:42.357] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.314.0-36643.
+[2026-07-28 20:46:43.002] [info]  [AppUpdateStateChangedEventHandler] App update state changed: [object Object].
+[2026-07-28 20:46:43.006] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2026-07-28 20:46:43.502] [info]  [AutoUpdateServiceImpl] Starting auto update service.
+[2026-07-28 20:46:43.502] [info]  [AutoUpdateServiceImpl] Auto updater is disabled by configuration.
+[2026-07-28 20:46:43.503] [info]  [LoginService] Validating login status.
+[2026-07-28 20:46:43.503] [info]  [SessionInfoRepositoryImpl] Loading login tokens from storage.
+[2026-07-28 20:46:43.504] [info]  [SessionInfoRepositoryImpl] Missing mandatory tokens. Clearing storage.
+[2026-07-28 20:46:43.505] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2026-07-28 20:46:43.507] [info]  [LoginService] No login tokens found..
+[2026-07-28 20:46:43.508] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2026-07-28 20:46:43.510] [info]  [LoginService] Notifying logged out status.
+[2026-07-28 20:46:43.510] [info]  [SessionInfoRepositoryImpl] Clearing tokens from storage.
+[2026-07-28 20:46:43.512] [error] [LoggedOutEventHandler] Failed to update client session info. Error: Radium API is not ready
+[2026-07-28 20:46:43.604] [info]  [GameAuthUsersChangedEventHandler] Minecraft Users info loaded.
+[2026-07-28 20:46:43.604] [info]  [LoggedOutEventHandler] User is logged out.
+[2026-07-28 20:46:43.606] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ....
+[2026-07-28 20:46:43.608] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2026-07-28 20:46:43.608] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.314.0-36643.
+[2026-07-28 20:46:43.875] [info]  [AppUpdateStateChangedEventHandler] App update state changed: [object Object].
+[2026-07-28 20:46:43.876] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2026-07-28 20:46:43.877] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2026-07-28 20:46:45.746] [info]  [PluginCommunication] Connecting to Mods Agent.
+[2026-07-28 20:46:45.747] [info]  [PluginProcessHost] Starting Mods Agent with ports range 52574-52594.
+[2026-07-28 20:46:45.747] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_cursefTKGdsh/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=52574,--to-port=52594,--pid=4690,--appDataPath=/home/arvid/.config/CurseForge,--api-key=4b930472-e347-49f9-83df-45dd8df2d5da,--clientId=Overwolf.
+[2026-07-28 20:46:46.181] [info]  [PluginProcessHost] Agent stdout: Starting CurseForge Agent Host.
+[2026-07-28 20:46:46.929] [info]  [PluginProcessHost] Agent stdout: Agent Data path is /home/arvid/.config/CurseForge/agent.
+[2026-07-28 20:46:46.929] [info]  [PluginProcessHost] Agent stdout: Agent Log path is /home/arvid/.config/CurseForge/agent/logs.
+[2026-07-28 20:46:48.199] [error] [UptimeRobotApi] get request https://health.curseforge.com/app/monitorStatus.json #1 failed with error code undefined - . AggregateError
+[2026-07-28 20:46:48.594] [info]  [PluginProcessHost] Agent stdout: 07/28/2026 20:46:48 [Info] Server started at ws://127.0.0.1:52574/CurseForge (actual port 52574) .
+[2026-07-28 20:46:48.595] [info]  [PluginProcessHost] Mods Agent started. pid: 4816, port: 52574.
+[2026-07-28 20:46:48.595] [info]  [RadiumWebsocketClient] Connecting to Mods Agent CurseForge on ports range 52574-52574.
+[2026-07-28 20:46:48.606] [info]  [PluginProcessHost] Agent stdout: Mods Agent server started on port 52574.
+[2026-07-28 20:46:48.658] [info]  [RadiumWebsocketClient] Connected to mods agent.
+[2026-07-28 20:46:48.658] [info]  [RadiumWebsocketClient] Connected to Mods Agent on port 52574.
+[2026-07-28 20:46:51.357] [info]  [ModpackDetectedEventHandler] Modpack 877f9167-63dc-4953-bbb3-9b454431c579 detected.
+[2026-07-28 20:46:51.372] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: yello (no flavor) - 877f9167-63dc-4953-bbb3-9b454431c579 (/home/arvid/Documents/curseforge/minecraft/Instances/yello/).
+[2026-07-28 20:46:51.413] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false.
+[2026-07-28 20:46:51.414] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false.
+[2026-07-28 20:46:51.470] [info]  [CoreServiceImpl] Mods agent was initialized successfully.
+[2026-07-28 20:46:51.471] [info]  [AppConnectivityService] Reporting app connectivity.
+[2026-07-28 20:46:52.123] [info]  [ReleaseNotesApiImpl] Fetching /1.314.0.36643/release-notes/1 ....
+[2026-07-28 20:46:52.142] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2026-07-28 20:46:52.146] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2026-07-28 20:46:52.150] [info]  [MeasurementAppServiceImpl] starting measurement game-dau.
+[2026-07-28 20:46:53.991] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2026-07-28 20:46:54.019] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2026-07-28 20:46:54.021] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2026-07-28 20:46:54.171] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2026-07-28 20:46:54.285] [info]  [ElectronApplication] CRN Api is not available.
+[2026-07-28 20:46:54.306] [info]  [MinecraftGameSessionChecker] failed to find java process with command line fallback to legacy check.
+[2026-07-28 20:46:54.313] [info]  [GameSessionEndedEventHandler] Game session: 877f9167-63dc-4953-bbb3-9b454431c579 ended.
+[2026-07-28 20:46:54.355] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2026-07-28 20:46:54.356] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2026-07-28 20:46:54.576] [info]  [ModpacksAppServiceImpl] Getting installed modpack 877f9167-63dc-4953-bbb3-9b454431c579.
+[2026-07-28 20:46:54.577] [info]  [GameInstanceChangedEventHandler] Game instance changed: 877f9167-63dc-4953-bbb3-9b454431c579 - ["Saved"].
+[2026-07-28 20:46:54.577] [info]  [ModpackChangedEventHandler] Modpack 877f9167-63dc-4953-bbb3-9b454431c579 changed.
+[2026-07-28 20:47:02.158] [info]  [AnalyticsService] trackDailyUnique is unique: true.

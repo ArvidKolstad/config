@@ -1,0 +1,64 @@
+1787168648756	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1787168763894	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1787168763900	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1787171126228	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1787171126239	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1787171126261	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1787171126261	FirefoxAccounts	DEBUG	getOAuthToken enter
+1787171126262	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1787171126262	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1787171126262	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1787171126711	Sync.RemoteTabs	INFO	Generating tab list with filter
+1787171126713	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1787171126735	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1787171133014	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1787171133059	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1787171133779	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1787171158106	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1787171438327	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1787171438328	Sync.Service	DEBUG	User-Agent: Firefox/153.0.4 (Linux x86_64) FxSync/1.155.0.20260811142655.desktop
+1787171438328	Sync.Service	INFO	Starting sync at 2026-08-19 22:30:38 in browser session N1F7VikSNOZA
+1787171438328	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1787171438330	Sync.Status	INFO	Resetting Status.
+1787171438330	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1787171438332	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1787171438332	FirefoxAccounts	DEBUG	getOAuthToken enter
+1787171438333	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1787171438333	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1787171438333	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1787171439336	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1787171439336	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1787171439337	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1787171439338	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1787171441021	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1787171441021	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1787171445306	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1787171445306	Sync.Service	DEBUG	User-Agent: Firefox/153.0.4 (Linux x86_64) FxSync/1.155.0.20260811142655.desktop
+1787171445306	Sync.Service	INFO	Starting sync at 2026-08-19 22:30:45 in browser session N1F7VikSNOZA
+1787171445306	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1392:6
+sync/<@service.sys.mjs:1366:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1367:7
+1787171445307	Sync.Service	INFO	Cannot start sync: already syncing?
+1787171448532	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1787171448532	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1787171450120	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1787171450120	Sync.Service	DEBUG	User-Agent: Firefox/153.0.4 (Linux x86_64) FxSync/1.155.0.20260811142655.desktop
+1787171450120	Sync.Service	INFO	Starting sync at 2026-08-19 22:30:50 in browser session N1F7VikSNOZA
+1787171450121	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1392:6
+sync/<@service.sys.mjs:1366:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1367:7
+1787171450121	Sync.Service	INFO	Cannot start sync: already syncing?
+1787171574212	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/285684177/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1787171574212	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1787171574212	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1787171574212	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1787171574213	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1787171574215	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

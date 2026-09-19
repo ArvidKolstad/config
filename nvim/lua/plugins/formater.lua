@@ -24,7 +24,7 @@ return {
 				lua = { "stylua" },
 
 				-- Python (Uppdaterat till ruff!)
-				python = { "ruff_format" },
+				python = { "ruff" },
 
 				-- C / C++ (Från din null-ls-önskan)
 				rust = { "rust-analyzer" },

@@ -43,3 +43,8 @@ vim.g.clipboard = {
 	},
 	cache_enabled = 0,
 }
+
+vim.g.python3_host_prog = vim.fn.expand("~/.virtualenvs/neovim/bin/python3")
+
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = 99
